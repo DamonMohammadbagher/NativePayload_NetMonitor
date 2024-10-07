@@ -8,3 +8,10 @@
     usage (Run As Admin): NativePayload_NetMonitor.exe ipaddress
       example NativePayload_NetMonitor.exe 127.0.0.1
       example NativePayload_NetMonitor.exe 192.168.56.101
+
+
+###  NativePayload_NetMonitor v 1.0
+   ![](https://github.com/DamonMohammadbagher/NativePayload_NetMonitor/blob/main/netmon1.png)
+
+###  NativePayload_NetMonitor v 1.0
+   ![](https://github.com/DamonMohammadbagher/NativePayload_NetMonitor/blob/main/netmon2.png)
