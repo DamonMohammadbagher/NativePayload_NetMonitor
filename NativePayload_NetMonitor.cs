@@ -214,6 +214,7 @@ namespace NativePayload_NetMonitor
 
             result4 += ($"ARP Sender IP: {senderIP}, Target IP: {targetIP}") + "\n";
             result4 += await PrintHex(buffer, arpHeaderStart, length - arpHeaderStart) + "\n";
+            Console.WriteLine(result4);
             return result4;
         }
 
