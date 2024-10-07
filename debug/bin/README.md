@@ -1,5 +1,5 @@
 # NativePayload_NetMonitor
-## NativePayload_NetMonitor Monitoring NetworkTraffic over [ICMP/ARP/TCP/UDP + HTTP + DNS] by ws2_32.dll windows Socket api 
+## NativePayload_NetMonitor Monitoring NetworkTraffic over [ICMP/ARP/TCP/UDP + HTTP + DNS] by ws2_32.dll Windows Sockets Library 
 
 ## some network traffick monitored by this code , i used this code to monitor some network traffic in my c2 server and client to detect bugs & watching details of payload for http or bmp/png files in payload of http or tcp or dns packets etc (working on icmp,dns,tcp/udp,http and more ...)
 
