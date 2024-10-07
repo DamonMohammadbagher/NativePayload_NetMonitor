@@ -4,6 +4,7 @@
 ## some network traffick monitored by this code , i used this code to monitor some network traffic in my c2 server and client to detect bugs & watching details of payload for http or bmp/png files in payload of http or tcp or dns packets etc (working on icmp,dns,tcp/udp,http and more ...)
 
 #### Note: you need "Run as Admin" to run code
+#### Note: each time after run the code , all logs will save into new text file [network_log.txt]
 
       md5 info 78a4b2f6818-3872efbea6fa-f558b326b => NativePayload_NetMonitor.exe
 
