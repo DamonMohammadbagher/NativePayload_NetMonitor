@@ -3,6 +3,11 @@
 
 ## some network traffick monitored by this code , i used this code to monitor some network traffic in my c2 server and client to detect bugs & watching details of payload for http or bmp/png files in payload of http or tcp or dns packets etc (working on icmp,dns,tcp/udp,http and more ...)
 
+#### Note: you need "Run as Admin" to run code
+
+      md5 info 78a4b2f6818-3872efbea6fa-f558b326b => NativePayload_NetMonitor.exe
+
+
 ### Source code tested by .Netframework 4.5 and 4.7.2 
 
 ### Target Platform x64 is ok.
