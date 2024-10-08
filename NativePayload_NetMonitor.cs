@@ -112,13 +112,15 @@ namespace NativePayload_NetMonitor
         private static async Task ParsePacket(byte[] buffer, int length)
         {
             // Parse the IP header
+            result5 = "";
             int ipHeaderLength = (buffer[0] & 0x0F) * 4;
             int protocol = buffer[9];
             string srcIP = $"{buffer[12]}.{buffer[13]}.{buffer[14]}.{buffer[15]}";
             string destIP = $"{buffer[16]}.{buffer[17]}.{buffer[18]}.{buffer[19]}";
-
+            
             Console.WriteLine($"Protocol: {protocol}, Source IP: {srcIP}, Destination IP: {destIP}");
-        
+            result5 += ($"Protocol: {protocol}, Source IP: {srcIP}, Destination IP: {destIP}");
+            await logWriter.WriteLineAsync(result5);
             /// Check for different protocols
             if (protocol == 1) // ICMP
             {
