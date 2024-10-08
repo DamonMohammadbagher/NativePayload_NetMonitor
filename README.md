@@ -24,5 +24,8 @@
 ###  NativePayload_NetMonitor v 1.0
    ![](https://github.com/DamonMohammadbagher/NativePayload_NetMonitor/blob/main/netmon2.png)
 
+###  NativePayload_NetMonitor v 1.0
+   ![](https://github.com/DamonMohammadbagher/NativePayload_NetMonitor/blob/main/netmon3.png)   
+
 
 <p><a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/DamonMohammadbagher/NativePayload_NetMonitor"/></a></p>
